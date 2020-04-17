@@ -118,7 +118,7 @@ int turtNamePrint(char *av)
 
 int main(int ac, char **av)
 {
-	if(ac < 1 && ac > 11)
+	if(ac < 1 || ac > 11)
 	{
 		write(1, "Incorrect data\n", 15);
 		return (0);
